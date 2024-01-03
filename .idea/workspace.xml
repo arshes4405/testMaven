@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b48e7d03-3876-4dc2-82ef-23afd591c1d1" name="Changes" comment="first" />
+    <list default="true" id="b48e7d03-3876-4dc2-82ef-23afd591c1d1" name="Changes" comment="first">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mavenTest/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mavenTest/index.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,12 +42,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/development/sample/mavenTest",
+    "last_opened_file_path": "C:/development/sample/mavenTest/lib/poi-scratchpad-4.1.2.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -52,8 +60,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="tamcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.17" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="tamcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.17" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../Java/jdk-11.0.8+10">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Duser.language=en -Duser.region=us -Dfile.encoding=UTF-8 -Dnashorn.args=--no-deprecation-warning" />
       <deployment>
         <artifact name="mavenTest:war exploded">
           <settings>
@@ -142,6 +151,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b48e7d03-3876-4dc2-82ef-23afd591c1d1" name="Changes" comment="" />
@@ -149,7 +161,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704242289333</updated>
-      <workItem from="1704242290522" duration="3897000" />
+      <workItem from="1704242290522" duration="5144000" />
+      <workItem from="1704257584508" duration="2636000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -159,13 +172,34 @@
       <option name="project" value="LOCAL" />
       <updated>1704254823541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <option name="closed" value="true" />
+      <created>1704255499365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704255499365</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first">
+      <option name="closed" value="true" />
+      <created>1704255769224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704255769224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="dfbed48e-a284-49f5-8de7-6acedfffa4ea" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -182,6 +216,31 @@
                   </entry>
                 </map>
               </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="dfbed48e-a284-49f5-8de7-6acedfffa4ea">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
