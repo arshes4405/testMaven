@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48e7d03-3876-4dc2-82ef-23afd591c1d1" name="Changes" comment="first">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenTest/trigger.mql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenTest/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenTest/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/development/sample/mavenTest/lib/poi-scratchpad-4.1.2.jar",
+    "last_opened_file_path": "C:/development/sample/mavenTest/target/mavenTest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,12 +48,15 @@
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "editing.templates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\sample\mavenTest\target\mavenTest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\development\sample\mavenTest\target\mavenTest" />
     </key>
   </component>
@@ -162,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704242289333</updated>
       <workItem from="1704242290522" duration="5144000" />
-      <workItem from="1704257584508" duration="2636000" />
+      <workItem from="1704257584508" duration="7421000" />
+      <workItem from="1704350280295" duration="8098000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -188,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704255769224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first">
+      <option name="closed" value="true" />
+      <created>1704260603182</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704260603182</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,5 +260,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/mavenTest/attributeMakerALL.jsp</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

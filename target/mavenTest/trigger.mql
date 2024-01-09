@@ -1,0 +1,15 @@
+//modify policy trigger
+mod policy hhiShopDrawing
+state Working
+add trigger Promote action emxTriggerManager input "hhiDCADPolicyShopDrawingPromoteAction";
+
+//add trigger
+add bus 'eService Trigger Program Parameters' TypeDocumentCreateAction testCreate policy 'eService Trigger Program Policy' vault 'eService Administration';
+mod bus 43279.44740.52462.57129 'eService Program Name' 'msoiMSFCommon';
+mod bus 43279.44740.52462.57129 'eService Sequence Number' '1';
+mod bus 43279.44740.52462.57129 'eService Method Name' 'testCreateTrigger';
+mod bus 43279.44740.52462.57129 'eService Error Type' 'Error';
+mod bus 43279.44740.52462.57129 'eService Run In Background' 'FALSE';
+mod bus 43279.44740.52462.57129 'eService Program Argument 1' '${OBJECTID}';
+
+
